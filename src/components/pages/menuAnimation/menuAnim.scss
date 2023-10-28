@@ -1,0 +1,26 @@
+@import './headerMenuAnim.scss';
+@import './animcontacts.scss';
+
+.menuanim-header{
+    display:flex;
+    justify-content: center;
+    background-color:rgb(185, 183, 183);
+}
+
+.menuanim{
+    margin: 0 auto;
+    padding: 30px;
+    background-color:rgb(219, 219, 219);
+    width: 100%;
+}
+
+.menuanim-main{
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+//    transition: all  0.8 ease-in-out;
+}
+
+.active{
+    color: red;
+  }

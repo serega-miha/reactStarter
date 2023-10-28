@@ -1,0 +1,37 @@
+@import './createUser.scss';
+@import './mainField.scss';
+@import './updateuserinfo.scss';
+
+
+
+.login-app{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 15px;
+    width: 100%;
+    height: 100%;
+
+ 
+}
+
+.start-field-button{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 100%;
+    a{
+        background-color: skyblue;
+        padding: 15px 30px;
+        // width: 200px;
+        text-align: center;
+        margin: 0 auto;
+        border-radius: 10px;
+        border: 1px solid black;
+        color: white;
+        font-size: 30px;
+        font-weight: 500;
+        text-decoration: none;
+
+    }
+}

@@ -1,0 +1,15 @@
+.header-container{
+
+
+    text-align: center;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.link{
+   flex: 1 1 20%;
+}

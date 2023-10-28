@@ -1,0 +1,34 @@
+
+
+.roster{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.roster-menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: 100%;
+    background-color: lightgray;
+    li{
+        font-size: 25px;
+    }
+}
+
+
+.my-node-enter {
+    opacity: 0;
+  }
+  .my-node-enter-active {
+    opacity: 1;
+    transition: opacity 800ms;
+  }
+  .my-node-exit {
+    opacity: 1;
+  }
+  .my-node-exit-active {
+    opacity: 0;
+    transition: opacity 800ms;
+  }

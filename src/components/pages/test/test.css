@@ -1,0 +1,22 @@
+.test{
+    display: flex;
+  
+    justify-content: center;
+    margin: 20px 0px 0px 0px;
+    
+}
+
+.test-container{
+
+}
+
+.test-hook{
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.result-text{
+    display: flex;
+    align-items:center;
+}

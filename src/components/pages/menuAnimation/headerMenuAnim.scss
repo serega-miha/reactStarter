@@ -1,0 +1,21 @@
+
+.actice{
+    color: red;
+}
+.menuanim-header__links{
+    list-style: none;
+    display:flex;
+    // justify-content: space-around;
+    li{
+        margin: 10px 20px;
+        
+        a{
+            font-size: 25px;
+           
+            text-decoration: none;
+           
+         
+            
+        }
+    }
+}
