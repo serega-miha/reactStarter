@@ -47,6 +47,12 @@ const AppHeader = () => {
                     <li className="link">
                         <NavLink activeStyle={{'color': '#9f0013'}} to='/about'>About</NavLink>
                     </li>
+                    <li className="link">
+                        <NavLink activeStyle={{'color': '#9f0013'}} to='/modalwindow'>Modal-Window</NavLink>
+                    </li>
+                    <li className="link">
+                        <NavLink activeStyle={{'color': '#9f0013'}} to='/formik'>Formik</NavLink>
+                    </li>
                 </ul>
             </div>
         </div>

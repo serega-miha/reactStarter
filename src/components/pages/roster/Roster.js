@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './roster.scss';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
+import { Helmet } from 'react-helmet';
 
 const Roster = () => {
 
@@ -15,6 +16,13 @@ const Roster = () => {
     return (
        
         <div className="roster">
+             <Helmet>
+                <meta
+                    name="description"
+                    content="Roster"
+                />
+                <title>Roster</title>
+            </Helmet>
             <h2 onClick={()=> setShow(!show)}>
                 {show ? 'Скрыть' : 'Показать'}
                 </h2>
